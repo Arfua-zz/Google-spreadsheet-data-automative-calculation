@@ -1,0 +1,6 @@
+[config]
+jsonCredentialsFile = test-json
+scope = test-scope
+spreadSheetId = test-id
+spreadSheetId2 = test-id2
+movingAverageWindow = 5

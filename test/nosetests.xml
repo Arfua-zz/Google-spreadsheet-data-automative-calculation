@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="builtins.ImportError" message="No module named 'mock'"><![CDATA[Traceback (most recent call last):
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/unittest/case.py", line 600, in run
+    testMethod()
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "/Users/raid.arfua/anaconda3/lib/python3.5/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/Users/raid.arfua/PycharmProjects/SpreadSheetData/test/test_gsloader.py", line 3, in <module>
+    from mock import patch, call, Mock
+ImportError: No module named 'mock'
+]]></error></testcase></testsuite>

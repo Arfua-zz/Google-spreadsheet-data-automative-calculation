@@ -1,0 +1,6 @@
+[config]
+jsonCredentialsFile = aed005c7d1ce.json
+scope = https://spreadsheets.google.com/feeds
+spreadSheetId = 1ZRcusctjjlNpVTDY5YGhD5SlKRV7iMiauSOs_X8dU7o
+spreadSheetId2 = 1hwa0aKwGbo9zBdH2XGgZodHytVAVWUfUR3SIzDCRk0g
+movingAverageWindow = 5
